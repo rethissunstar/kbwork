@@ -5,6 +5,9 @@
 ![Contributors Badge](https://img.shields.io/github/contributors/matthew-millard/kb-fanatics?color=blue)
 ![Last Commit Badge](https://img.shields.io/github/last-commit/matthew-millard/kb-fanatics)
 
+## Deployed Link
+https://kb-fanatics-2-c059b16fa22f.herokuapp.com/
+
 ## Description
 
 KB FANATICS - a mock online store dedicated to mechanical keyboard enthusiasts. On the frontend, we utilize React and Apollo Client for an intuitive and dynamic user experience. For the backend, we've chosen NodeJS, Apollo Server, and MongoDB, providing a powerful, scalable, and real-time solution.
