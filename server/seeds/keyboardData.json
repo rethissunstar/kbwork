@@ -1,0 +1,72 @@
+[
+  {
+    "brand": "KB Fanatics",
+    "model": "TOFU65",
+    "color": "Cement Grey",
+    "keycaps": "Japanese PBT",
+    "plate": "Brass",
+    "case": "Aluminum",
+    "switches": "Gateron Black",
+    "hotswap": false,
+    "price": 179,
+    "quantity": 13,
+    "imageURL": "https://kb-fanatics-keyboards.s3.us-east-2.amazonaws.com/product-images/1.jpg",
+    "imageRef": 1
+  },
+  {
+    "brand": "KB Fanatics",
+    "model": "TOFU65",
+    "color": "White",
+    "keycaps": "PBT WOB Simple Base",
+    "plate": "Brass",
+    "case": "Aluminum",
+    "switches": "Kalih Box White",
+    "hotswap": true,
+    "price": 220,
+    "quantity": 8,
+    "imageURL": "https://kb-fanatics-keyboards.s3.us-east-2.amazonaws.com/product-images/2.webp",
+    "imageRef": 2
+  },
+  {
+    "brand": "KB Fanatics",
+    "model": "TOFU60",
+    "color": "Black",
+    "keycaps": "PBT BOG",
+    "plate": "Aluminum",
+    "case": "Aluminum",
+    "switches": "Cherry MX Black",
+    "hotswap": false,
+    "price": 250,
+    "quantity": 10,
+    "imageURL": "https://kb-fanatics-keyboards.s3.us-east-2.amazonaws.com/product-images/3.webp",
+    "imageRef": 3
+  },
+  {
+    "brand": "KB Fanatics",
+    "model": "TOFU60",
+    "color": "White",
+    "keycaps": "PBT BOW",
+    "plate": "Carbon Fiber",
+    "case": "Aluminum",
+    "switches": "Cherry MX Black",
+    "hotswap": false,
+    "price": 276,
+    "quantity": 18,
+    "imageURL": "https://kb-fanatics-keyboards.s3.us-east-2.amazonaws.com/product-images/4.webp",
+    "imageRef": 4
+  },
+  {
+    "brand": "KB Fanatics",
+    "model": "TOFU60",
+    "color": "Black",
+    "keycaps": "PBT Purpurite",
+    "plate": "Carbon Fiber",
+    "case": "Aluminum",
+    "switches": "Jerrzi Tu",
+    "hotswap": false,
+    "price": 278,
+    "quantity": 4,
+    "imageURL": "https://kb-fanatics-keyboards.s3.us-east-2.amazonaws.com/product-images/5.jpg",
+    "imageRef": 5
+  }
+]

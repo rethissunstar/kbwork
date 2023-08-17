@@ -1,0 +1,91 @@
+.categoryCard {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    "keyboards"
+    "keycaps";
+  width: 100%;
+  gap: 2rem;
+}
+
+.categoryItem {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.categoryImage {
+  width: 100%;
+}
+
+.categoryImage img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block; /* Remove any space at the bottom of the image */
+  width: 100%;
+}
+
+.keyboardsCard {
+  grid-area: keyboards;
+}
+
+.keycapsCard {
+  grid-area: keycaps;
+}
+
+.categoryContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: var(--navy);
+  border-radius: 3px;
+  border-width: 0;
+  box-sizing: border-box;
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 0.05em;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: background-color 300ms ease-in-out;
+  width: 100%;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.button:hover {
+  background-color: var(--vlight-navy);
+}
+
+@media (min-width: 768px) {
+  .categoryCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "keyboards keycaps";
+  }
+}

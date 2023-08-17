@@ -1,0 +1,8 @@
+.loginLink {
+  font-size: 1.4rem;
+  background: none;
+  border: none;
+  color: var(--white);
+  text-decoration: underline;
+  cursor: pointer;
+}

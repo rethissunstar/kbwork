@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.order {
+  box-sizing: border-box;
+  background-image: url('../../images/Button_Background_OH.png');
+  background-size: contain;
+  background-position: center;
+  border-radius: 10px;
+  padding: 0rem;
+  text-align: center;
+  animation: fadeInUp 3s ease;
+  border: 2px solid white;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+/* OrderHistory.module.css */
+/* .noOrders {
+  box-sizing: border-box;
+  background-image: url('../../images/Button_Background_OH.png');
+  background-size: contain;
+  background-position: center;
+  border-radius: 10px;
+  padding: 0rem;
+  text-align: center;
+  animation: pulse 3s ease;
+} */
+.orderInfo p {
+  margin: 0;
+  padding: 0.5rem;
+  border: none;
+  margin-right: 20px; /* Adds a little space between the two paragraphs */
+}
+
+.orderInfo p span {
+  font-weight: bold; /* Makes the "Order Date:" and "Order Number:" bold */
+}
+
+.orderInfo p:last-child {
+  margin-right: 0; /* Removes the margin from the last paragraph to align it nicely */
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

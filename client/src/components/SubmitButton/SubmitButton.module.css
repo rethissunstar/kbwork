@@ -1,0 +1,34 @@
+.submitButton {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: var(--navy);
+  border-radius: 3px;
+  border-width: 0;
+  box-sizing: border-box;
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 0.05em;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: background-color 300ms ease-in-out;
+  width: 100%;
+}
+
+.submitButton:disabled {
+  cursor: default;
+}
+
+.submitButton:hover {
+  background-color: var(--vlight-navy);
+}

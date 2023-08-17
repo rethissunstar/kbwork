@@ -1,0 +1,31 @@
+.cart > * {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border-radius: 50%;
+  transition: background-color 150ms ease-in-out;
+}
+
+.cart > *:hover {
+  background-color: var(--light-navy);
+}
+
+.cartCount {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 40%;
+  right: -135%;
+  background-color: #089ce7;
+  color: var(--white);
+  border-radius: 50%;
+  font-size: 1rem;
+}

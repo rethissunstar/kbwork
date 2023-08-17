@@ -1,0 +1,18 @@
+.header {
+  font-size: x-large;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 2px 2px 2px 2px;
+  color: white;
+}
+
+/* p {
+  justify-content: center;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 8px;
+  border-width: 1px;
+  box-shadow: 5px 5px 5px white;
+  text-align: center;
+} */

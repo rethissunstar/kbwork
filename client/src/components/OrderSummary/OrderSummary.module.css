@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  align-items: start;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  align-items: start;
+  gap: 1rem;
+  margin: 2rem 0;
+  font-size: 1rem;
+}
+
+.itemImage {
+  width: 50px;
+}
+
+.itemImage img {
+  border-radius: 50%;
+}
+
+.divider {
+  margin-bottom: 2rem;
+}
+
+.totals {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.total {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .item {
+    font-size: 1.6rem;
+  }
+  .totals {
+    font-size: 2rem;
+  }
+  .total {
+    font-size: 2.4rem;
+  }
+}

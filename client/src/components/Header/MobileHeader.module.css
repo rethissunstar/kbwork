@@ -1,0 +1,80 @@
+.mobileHeader {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'logo menuIcon';
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  grid-area: logo;
+}
+
+.menuIcon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  grid-area: menuIcon;
+  font-size: 2.4rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.rotateIcon {
+  transform: rotate(180deg);
+}
+
+.sidebar {
+  z-index: 998;
+  display: grid;
+  grid-template-columns: 40px auto 40px;
+  grid-template-rows: 100px 100px auto 100px 100px 1fr;
+  grid-template-areas:
+    '. . .'
+    '. user .'
+    '. links .'
+    '. search .'
+    '. social .'
+    '. . .';
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80%;
+  max-width: 300px;
+  height: 100%;
+  background-color: var(--dark-navy);
+  transform: translateX(100%);
+  transition: transform 0.3s ease-out;
+}
+
+/* Sidebar Open State */
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.navLinks {
+  grid-area: links;
+}
+
+.socialIcons {
+  grid-area: social;
+  display: flex;
+  align-items: center;
+}
+
+.userControls {
+  grid-area: user;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.searchBar {
+  grid-area: search;
+  display: flex;
+  align-items: center;
+}

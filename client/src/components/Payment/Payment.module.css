@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  gap: 1rem;
+  border: 1px solid var(--slate);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.heading {
+  font-size: 2.4rem;
+}
+
+.error {
+  color: var(--errorRed);
+}
+
+@media (min-width: 768px) {
+  .container {
+    gap: 2rem;
+    padding: 2rem 4rem;
+  }
+
+  .heading {
+    font-size: 2.8rem;
+  }
+}

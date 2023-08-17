@@ -1,0 +1,15 @@
+.account > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  transition: background-color 150ms ease-in-out;
+}
+
+.account > *:hover {
+  background-color: var(--light-navy);
+}

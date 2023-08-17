@@ -1,0 +1,39 @@
+.card {
+  position: absolute;
+  background-color: var(--dark-navy-half);
+  bottom: 0;
+  right: 0;
+  padding: 1rem 2rem;
+}
+
+/* .card h3 {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  margin-bottom: 2rem;
+} */
+
+.button {
+  font-size: 2rem;
+  color: var(--dark-navy);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--white);
+  box-shadow: 0px 10px 20px var(--dark-navy-half);
+  padding: 8px 20px;
+  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+/* .button:hover {
+  background-color: var(--light-navy);
+  color: var();
+} */
+
+.button:active {
+  transform: translate(-50%, -50%) scale(0.98);
+}
