@@ -1,0 +1,129 @@
+/* Fonts */
+@font-face {
+  font-family: "Soehne";
+  src: url("./fonts/soehne/soehne-buch.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Soehne";
+  src: url("./fonts/soehne/soehne-halbfett.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Colors and initialize font size */
+:root {
+  /* Colors */
+  --dark: #00010a;
+  --dark-navy: #010215;
+  --dark-navy-half: #010215c8;
+  --navy: #172a45;
+  --light-navy: #172a457d;
+  --vlight-navy: #303c55;
+  --slate: #8892b0;
+  --blue: #089ce7;
+  --white: #e6f1ff;
+  --errorRed: #da0016;
+
+  /* Fonts */
+  font-size: 62.5%;
+  color: var(--white);
+}
+
+/* Set core body defaults */
+body {
+  font-family: "Soehne", sans-serif;
+  font-feature-settings: "ss01";
+  font-weight: 400;
+  background-color: var(--dark);
+  letter-spacing: 0.05em;
+  color: var(--white);
+}
+
+/* Mobile Font Sizes */
+h1 {
+  padding: 0;
+  font-size: 2.8rem; /* 28px */
+}
+
+h2 {
+  font-size: 2rem; /* 20px */
+}
+
+h3 {
+  font-size: 1.8rem; /* 18px */
+}
+
+h4 {
+  font-size: 1.6rem; /* 16px */
+}
+
+p,
+span,
+a,
+input {
+  font-size: 1.4rem; /* 14px */
+}
+
+/* Links */
+a {
+  color: var(--white);
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.3ex;
+  text-decoration-color: var(--white);
+  transition: text-underline-offset 150ms ease-in-out;
+}
+
+a:hover {
+  text-underline-offset: 0.1ex;
+}
+
+hr {
+  width: 100%;
+  margin: 0;
+  color: var(--navy);
+}
+
+/* Tablet Font Sizes */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3.4rem; /* 32px */
+  }
+
+  h2 {
+    font-size: 2.8rem; /* 28px */
+  }
+
+  h3 {
+    font-size: 2.4rem; /* 24px */
+  }
+
+  h4 {
+    font-size: 2rem; /* 20px */
+  }
+}
+
+/* Desktop Font Sizes */
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 4rem; /* 40px */
+  }
+
+  h2 {
+    font-size: 3.2rem; /* 32px */
+  }
+
+  h3 {
+    font-size: 2.8rem; /* 28px */
+  }
+
+  h4 {
+    font-size: 2.4rem; /* 24px */
+  }
+}

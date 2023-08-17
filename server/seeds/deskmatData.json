@@ -1,0 +1,83 @@
+[
+  {
+    "category": "deskmats",
+    "brand": "KB Fanatics",
+    "model": "Landscapes",
+    "price": 15,
+    "quantity": 30,
+    "imageURL": "https://kb-fanatics-deskmats.s3.us-east-2.amazonaws.com/product-images/1.webp",
+    "imageRef": 1
+  },
+  {
+    "category": "deskmats",
+    "brand": "KB Fanatics",
+    "model": "Simple Icon",
+    "price": 10,
+    "quantity": 5,
+    "imageURL": "https://kb-fanatics-deskmats.s3.us-east-2.amazonaws.com/product-images/2.webp",
+    "imageRef": 2
+  },
+  {
+    "category": "deskmats",
+    "brand": "KB Fanatics",
+    "model": "Impression City",
+    "price": 15,
+    "quantity": 15,
+    "imageURL": "https://kb-fanatics-deskmats.s3.us-east-2.amazonaws.com/product-images/3.webp",
+    "imageRef": 3
+  },
+  {
+    "category": "deskmats",
+    "brand": "DSYK",
+    "model": "Logging Theme",
+    "price": 15,
+    "quantity": 8,
+    "imageURL": "https://kb-fanatics-deskmats.s3.us-east-2.amazonaws.com/product-images/4.webp",
+    "imageRef": 4
+  },
+  {
+    "category": "deskmats",
+    "brand": "GMK",
+    "model": "Daifuku",
+    "price": 20,
+    "quantity": 3,
+    "imageURL": "https://kb-fanatics-deskmats.s3.us-east-2.amazonaws.com/product-images/5.webp",
+    "imageRef": 5
+  },
+  {
+    "category": "deskmats",
+    "brand": "GMK",
+    "model": "Predator",
+    "price": 20,
+    "quantity": 5,
+    "imageURL": "https://kb-fanatics-deskmats.s3.us-east-2.amazonaws.com/product-images/6.webp",
+    "imageRef": 6
+  },
+  {
+    "category": "deskmats",
+    "brand": "ePBT",
+    "model": "Brutalist",
+    "price": 20,
+    "quantity": 2,
+    "imageURL": "https://kb-fanatics-deskmats.s3.us-east-2.amazonaws.com/product-images/7.webp",
+    "imageRef": 7
+  },
+  {
+    "category": "deskmats",
+    "brand": "ePBT",
+    "model": "Le Corbusier",
+    "price": 20,
+    "quantity": 1,
+    "imageURL": "https://kb-fanatics-deskmats.s3.us-east-2.amazonaws.com/product-images/8.webp",
+    "imageRef": 8
+  },
+  {
+    "category": "deskmats",
+    "brand": "ePBT",
+    "model": "POCO",
+    "price": 15,
+    "quantity": 2,
+    "imageURL": "https://kb-fanatics-deskmats.s3.us-east-2.amazonaws.com/product-images/9.webp",
+    "imageRef": 9
+  }
+]

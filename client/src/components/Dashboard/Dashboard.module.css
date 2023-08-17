@@ -1,0 +1,115 @@
+.siteLogo {
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.dashboardContainer {
+  min-height: calc(100vh - 100px);
+  width: 80%;
+  margin: 2rem auto;
+  padding: 20px;
+  border: 1px solid var(--white);
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start; 
+  box-sizing: border-box;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.centerImage {
+  width: 300px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.imageFromLeft {
+  animation: slideInFromLeft 2s ease-out forwards;
+}
+
+.imageFromRight {
+  animation: slideInFromRight 2s ease-out forwards;
+}
+
+.userDetails {
+  text-align: center;
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+:root {
+  --white: #ffffff;
+}
+
+h1 {
+  padding: 20px;
+}
+.logoutButton {
+  padding: 10px 20px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0; /* Add some top margin for spacing */
+}
+
+.logoutButton:hover {
+  background-color: rgb(56, 53, 53);
+}
+
+
+/* Mobile Setting */
+@media (max-width: 768px) {
+  .dashboardContainer {
+    width: 95%;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+  
+  .centerImage {
+    display: none; /* Hide images on mobile */
+  }
+  
+  .contentWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .userDetails {
+    text-align: left;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}

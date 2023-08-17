@@ -1,0 +1,83 @@
+[
+  {
+    "category": "accessories",
+    "brand": "Gateron",
+    "model": "Switch Opener",
+    "price": 30,
+    "quantity": 4,
+    "imageURL": "https://kb-fanatics-accessories.s3.us-east-2.amazonaws.com/product-images/1.webp",
+    "imageRef": 1
+  },
+  {
+    "category": "accessories",
+    "brand": "KB Fanatics",
+    "model": "ESD-11 Tweezers",
+    "price": 2,
+    "quantity": 11,
+    "imageURL": "https://kb-fanatics-accessories.s3.us-east-2.amazonaws.com/product-images/2.webp",
+    "imageRef": 2
+  },
+  {
+    "category": "accessories",
+    "brand": "KB Fanatics",
+    "model": "T6 Plum Wrenches",
+    "price": 1,
+    "quantity": 19,
+    "imageURL": "https://kb-fanatics-accessories.s3.us-east-2.amazonaws.com/product-images/3.webp",
+    "imageRef": 3
+  },
+  {
+    "category": "accessories",
+    "brand": "KB Fanatics",
+    "model": "Quartz Stone Wrist Rest",
+    "price": 23,
+    "quantity": 10,
+    "imageURL": "https://kb-fanatics-accessories.s3.us-east-2.amazonaws.com/product-images/4.webp",
+    "imageRef": 4
+  },
+  {
+    "category": "accessories",
+    "brand": "Cherry",
+    "model": "Plate Mount Stabilizers",
+    "price": 15,
+    "quantity": 7,
+    "imageURL": "https://kb-fanatics-accessories.s3.us-east-2.amazonaws.com/product-images/5.webp",
+    "imageRef": 5
+  },
+  {
+    "category": "accessories",
+    "brand": "KB Fanatics",
+    "model": "80% PCB Foams",
+    "price": 15,
+    "quantity": 5,
+    "imageURL": "https://kb-fanatics-accessories.s3.us-east-2.amazonaws.com/product-images/6.webp",
+    "imageRef": 6
+  },
+  {
+    "category": "accessories",
+    "brand": "KB Fanatics",
+    "model": "Lube Tools Collection",
+    "price": 5,
+    "quantity": 3,
+    "imageURL": "https://kb-fanatics-accessories.s3.us-east-2.amazonaws.com/product-images/7.webp",
+    "imageRef": 7
+  },
+  {
+    "category": "accessories",
+    "brand": "KB Fanatics",
+    "model": "Marble Wrist Rest",
+    "price": 23,
+    "quantity": 2,
+    "imageURL": "https://kb-fanatics-accessories.s3.us-east-2.amazonaws.com/product-images/8.webp",
+    "imageRef": 8
+  },
+  {
+    "category": "accessories",
+    "brand": "KB Fanatics",
+    "model": "Walnut Wood Keyboard Stand",
+    "price": 18,
+    "quantity": 1,
+    "imageURL": "https://kb-fanatics-accessories.s3.us-east-2.amazonaws.com/product-images/9.webp",
+    "imageRef": 9
+  }
+]

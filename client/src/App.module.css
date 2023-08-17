@@ -1,0 +1,39 @@
+.pageContainer {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 5% 1fr 5%;
+  grid-template-rows: 100px 1fr auto;
+  grid-template-areas:
+    ". h ."
+    ". m ."
+    "f f f";
+}
+
+.pageContainer > * {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  grid-area: h;
+}
+
+.main {
+  grid-area: m;
+}
+
+.footer {
+  grid-area: f;
+  /* background-color: var(--navy); */
+}
+
+@media (min-width: 1200px) {
+  .pageContainer {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px auto auto;
+    grid-template-areas:
+      "h h h h h h h h h h h h"
+      ". m m m m m m m m m m ."
+      "f f f f f f f f f f f f";
+  }
+}

@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 3.2rem;
+  }
+
+  .container {
+    padding-left: 5vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .logo {
+    font-size: 3.6rem;
+  }
+}

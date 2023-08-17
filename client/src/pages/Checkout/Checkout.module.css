@@ -1,0 +1,56 @@
+.container {
+  /* background-color: aqua; */
+  width: 100%;
+  max-width: 900px;
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "heading"
+    "shipping"
+    "order"
+    "payment"
+    "button";
+  gap: 2rem;
+  margin-bottom: 4rem;
+  min-height: calc(100vh - 100px);
+}
+
+.heading {
+  grid-area: heading;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shippingDetails {
+  grid-area: shipping;
+}
+
+.orderSummary {
+  grid-area: order;
+}
+
+.paymentDetails {
+  grid-area: payment;
+}
+
+.button {
+  margin: 0 auto;
+  grid-area: button;
+  width: 100%;
+  max-width: 500px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+      "heading heading"
+      "shipping order"
+      "payment payment"
+      "button button";
+    gap: 4rem;
+  }
+}

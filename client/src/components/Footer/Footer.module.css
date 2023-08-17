@@ -1,0 +1,134 @@
+footer {
+  /* background-color: aqua; */
+  border-top: 2px solid var(--light-navy);
+  padding-top: 2rem;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, auto);
+  grid-template-areas:
+    "newsletter"
+    "links"
+    "about"
+    "contact"
+    "social"
+    "payments"
+    "copyright";
+  margin-inline: 5%;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  grid-area: newsletter;
+}
+
+.newsletterForm {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.newsletterInput {
+  width: 100%;
+  padding: 10px 45px 10px 20px;
+  outline: 0;
+}
+
+.newsletterButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translate(50%, -50%);
+  border: none;
+  background-color: var(--navy);
+  height: 3rem;
+  width: 3rem;
+  font-size: 0.8rem;
+  color: var(--white);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.newsletterButton:hover {
+  background-color: var(--light-navy);
+}
+
+.links {
+  grid-area: links;
+}
+
+.about {
+  grid-area: about;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 2rem;
+  grid-area: social;
+}
+
+.socialIcons > * {
+  font-size: 1.6rem;
+}
+
+.payments {
+  display: flex;
+  gap: 1rem;
+  grid-area: payments;
+}
+
+.copyright {
+  color: var(--navy);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: copyright;
+}
+
+/* Media Queries */
+@media (min-width: 1200px) {
+  footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      "newsletter links about contact"
+      "social . . ."
+      "copyright . . payments";
+    margin-inline: 5%;
+    margin-bottom: 2rem;
+    gap: 2rem;
+  }
+
+  .copyright {
+    justify-content: flex-start;
+  }
+
+  .payments {
+    justify-content: flex-end;
+  }
+}

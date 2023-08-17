@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b7747575.css",
+    "main.js": "/static/js/main.0b9c24b1.js",
+    "static/media/keyboard_03.jpg": "/static/media/keyboard_03.ccbefc87cf1c74b9dae8.jpg",
+    "static/media/keyboard_02.jpg": "/static/media/keyboard_02.98fa68831678c2f8e2fe.jpg",
+    "static/media/Button_Background.png": "/static/media/Button_Background.0160bcf2aea594be5284.png",
+    "static/media/keyboard_01.jpg": "/static/media/keyboard_01.fed7c1a152a1fcf26573.jpg",
+    "static/media/Keyboard_warrior_icon2.png": "/static/media/Keyboard_warrior_icon2.e968a3373aa10f223054.png",
+    "static/media/Keyboard_warrior_icon.png": "/static/media/Keyboard_warrior_icon.75416b8bc512a7029dc3.png",
+    "static/media/soehne-halbfett.woff2": "/static/media/soehne-halbfett.75c6f1271940515963d2.woff2",
+    "static/media/soehne-buch.woff2": "/static/media/soehne-buch.501597ac71236d083b84.woff2",
+    "index.html": "/index.html",
+    "main.b7747575.css.map": "/static/css/main.b7747575.css.map",
+    "main.0b9c24b1.js.map": "/static/js/main.0b9c24b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7747575.css",
+    "static/js/main.0b9c24b1.js"
+  ]
+}

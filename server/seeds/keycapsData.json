@@ -1,0 +1,92 @@
+[
+  {
+    "category": "keycaps",
+    "brand": "EPBT",
+    "model": "Winter Breath",
+    "price": 75,
+    "quantity": 12,
+    "imageURL": "https://kb-fanatics-keycaps.s3.us-east-2.amazonaws.com/product-images/1.webp",
+    "imageRef": 1
+  },
+  {
+    "category": "keycaps",
+    "brand": "GMK",
+    "model": "Agent 01",
+    "price": 55,
+    "quantity": 5,
+    "imageURL": "https://kb-fanatics-keycaps.s3.us-east-2.amazonaws.com/product-images/2.webp",
+    "imageRef": 2
+  },
+  {
+    "category": "keycaps",
+    "brand": "GMK",
+    "model": "Arch",
+    "price": 200,
+    "quantity": 3,
+    "imageURL": "https://kb-fanatics-keycaps.s3.us-east-2.amazonaws.com/product-images/3.webp",
+    "imageRef": 3
+  },
+  {
+    "category": "keycaps",
+    "brand": "GMK",
+    "model": "Momo Yume",
+    "price": 87,
+    "quantity": 5,
+    "imageURL": "https://kb-fanatics-keycaps.s3.us-east-2.amazonaws.com/product-images/4.webp",
+    "imageRef": 4
+  },
+  {
+    "category": "keycaps",
+    "brand": "GMK",
+    "model": "Rouge R2",
+    "price": 102,
+    "quantity": 7,
+    "imageURL": "https://kb-fanatics-keycaps.s3.us-east-2.amazonaws.com/product-images/5.webp",
+    "imageRef": 5
+  },
+  {
+    "category": "keycaps",
+    "brand": "PBTFANS",
+    "model": "BOW",
+    "price": 155,
+    "quantity": 10,
+    "imageURL": "https://kb-fanatics-keycaps.s3.us-east-2.amazonaws.com/product-images/6.webp",
+    "imageRef": 6
+  },
+  {
+    "category": "keycaps",
+    "brand": "PBTFANS",
+    "model": "Spark Light",
+    "price": 77,
+    "quantity": 2,
+    "imageURL": "https://kb-fanatics-keycaps.s3.us-east-2.amazonaws.com/product-images/7.webp",
+    "imageRef": 7
+  },
+  {
+    "category": "keycaps",
+    "brand": "PBTFANS",
+    "model": "Katakana",
+    "price": 105,
+    "quantity": 8,
+    "imageURL": "https://kb-fanatics-keycaps.s3.us-east-2.amazonaws.com/product-images/8.webp",
+    "imageRef": 8
+  },
+  {
+    "category": "keycaps",
+    "brand": "PBTFANS",
+    "model": "WOB",
+    "price": 75,
+    "quantity": 23,
+    "imageURL": "https://kb-fanatics-keycaps.s3.us-east-2.amazonaws.com/product-images/9.webp",
+    "imageRef": 9
+  },
+  {
+    "category": "keycaps",
+    "brand": "PBTFANS",
+    "model": "Cookies 'n Cream",
+    "price": 75,
+    "quantity": 30,
+    "imageURL": "https://kb-fanatics-keycaps.s3.us-east-2.amazonaws.com/product-images/10.webp",
+    "imageRef": 10
+  }
+]

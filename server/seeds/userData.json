@@ -1,0 +1,15 @@
+[
+  {
+    "firstName": "Bruce",
+    "lastName": "Wayne",
+    "email": "batman@batman.com",
+    "password": "gothamKnight1",
+    "address": "1007 Mountain Drive",
+    "city": "Gotham",
+    "stateProvince": "New Jersey",
+    "country": "US",
+    "postalCode": "07016",
+    "phoneNumber": "555-555-5555",
+    "verified": true
+  }
+]

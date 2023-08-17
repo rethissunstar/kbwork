@@ -1,0 +1,62 @@
+[
+  {
+    "category": "switches",
+    "brand": "Zeal",
+    "product": "Rosélios Silent",
+    "switchType": "Linear",
+    "quantity": 3000,
+    "price": 13,
+    "imageRef": 1,
+    "imageURL": "https://kb-fanatics-switches.s3.us-east-2.amazonaws.com/product-images/1.webp"
+  },
+  {
+    "category": "switches",
+    "brand": "Kailh",
+    "product": "Box Crystal Royal",
+    "switchType": "Tactile",
+    "quantity": 2000,
+    "price": 6,
+    "imageRef": 2,
+    "imageURL": "https://kb-fanatics-switches.s3.us-east-2.amazonaws.com/product-images/2.webp"
+  },
+  {
+    "category": "switches",
+    "brand": "Jerrzi",
+    "product": "Tu",
+    "switchType": "Linear",
+    "quantity": 17,
+    "price": 11,
+    "imageRef": 3,
+    "imageURL": "https://kb-fanatics-switches.s3.us-east-2.amazonaws.com/product-images/3.webp"
+  },
+  {
+    "category": "switches",
+    "brand": "Haimu",
+    "product": "Middle Night",
+    "switchType": "Linear",
+    "quantity": 100,
+    "price": 4,
+    "imageRef": 4,
+    "imageURL": "https://kb-fanatics-switches.s3.us-east-2.amazonaws.com/product-images/4.webp"
+  },
+  {
+    "category": "switches",
+    "brand": "Cherry",
+    "product": "MX Hyperglide Green",
+    "switchType": "Linear",
+    "quantity": 29,
+    "price": 4,
+    "imageRef": 5,
+    "imageURL": "https://kb-fanatics-switches.s3.us-east-2.amazonaws.com/product-images/5.webp"
+  },
+  {
+    "category": "switches",
+    "brand": "NovelKeys X Kailh",
+    "product": "Box Thick",
+    "switchType": "Clicky",
+    "quantity": 100,
+    "price": 5,
+    "imageRef": 6,
+    "imageURL": "https://kb-fanatics-switches.s3.us-east-2.amazonaws.com/product-images/6.webp"
+  }
+]
