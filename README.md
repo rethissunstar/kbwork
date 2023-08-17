@@ -71,3 +71,14 @@ Here is an explanation of the settings:
 - editor.codeActionsOnSave: This setting is for applying automated fixes for issues that ESLint has detected when a file is saved. source.fixAll.eslint is set to true to fix all auto-fixable ESLint problems on save.
 
 **_This configuration is saved in the .vscode/settings.json file in the project root. When you open this project in VS Code, these settings will be automatically applied to their editor._**
+
+## References
+
+https://console.cloud.google.com/apis/credentials?project=kb-fanatics
+https://developers.google.com/maps/documentation/address-validation/requests-validate-address
+https://www.youtube.com/watch?v=v6Ul3o8D-js&list=PLk8gdrb2DmCi-9ys7sVZvKNQISs5Bkw-t&index=5
+https://stackoverflow.com/questions/19509357/not-able-to-connect-to-outlook-com-smtp-using-nodemailer
+
+## Pictures of Deploy
+
+<img src = "client/public/project3deployhome.png"><img>
