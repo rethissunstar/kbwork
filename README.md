@@ -5,9 +5,6 @@
 ![Contributors Badge](https://img.shields.io/github/contributors/matthew-millard/kb-fanatics?color=blue)
 ![Last Commit Badge](https://img.shields.io/github/last-commit/matthew-millard/kb-fanatics)
 
-## Deployed Link
-https://kb-fanatics-2-c059b16fa22f.herokuapp.com/
-
 ## Description
 
 KB FANATICS - a mock online store dedicated to mechanical keyboard enthusiasts. On the frontend, we utilize React and Apollo Client for an intuitive and dynamic user experience. For the backend, we've chosen NodeJS, Apollo Server, and MongoDB, providing a powerful, scalable, and real-time solution.
@@ -19,6 +16,14 @@ KB FANATICS - a mock online store dedicated to mechanical keyboard enthusiasts. 
   - [Running the Application Locally](#running-the-application-locally)
 - [ESLint and Prettier with Airbnb Style Guide](#eslint-and-prettier-with-airbnb-style-guide)
 - [Visual Studio Code Configuration](#visual-studio-code-configuration)
+- [Links](#links)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+- [Node Packages Used](#node-packages-used)
+- [Contributors](#contributors)
+- [Contribution](#contribution)
+- [License](#license)
+- [Questions](#questions)
 
 ## Project Setup Guide
 
@@ -28,10 +33,10 @@ KB FANATICS - a mock online store dedicated to mechanical keyboard enthusiasts. 
 
 2. Navigate to the project root directory.
 
-3. Install the project dependencies by running `npm install`. This will run the following script:
+3. Install the project dependencies by running `npm run install-all`. This will run the following script:
 
    ```JSON
-   "install": "cd server && npm i && cd ../client && npm i"
+    "install-all": "cd server && npm i && cd ../client && npm i",
    ```
 
 4. Launch MongoDB Compass and connect to
@@ -75,13 +80,87 @@ Here is an explanation of the settings:
 
 **_This configuration is saved in the .vscode/settings.json file in the project root. When you open this project in VS Code, these settings will be automatically applied to their editor._**
 
-## References
+## Links
 
-https://console.cloud.google.com/apis/credentials?project=kb-fanatics
-https://developers.google.com/maps/documentation/address-validation/requests-validate-address
-https://www.youtube.com/watch?v=v6Ul3o8D-js&list=PLk8gdrb2DmCi-9ys7sVZvKNQISs5Bkw-t&index=5
-https://stackoverflow.com/questions/19509357/not-able-to-connect-to-outlook-com-smtp-using-nodemailer
+[Github Repository](https://github.com/matthew-millard/kb-fanatics)
 
-## Pictures of Deploy
+[Deployed Website](https://kb-fanatics-2-c059b16fa22f.herokuapp.com/)
 
-<img src = "client/public/project3deployhome.png"><img>
+## Screenshots
+
+![KB Fanatics homepage](./assets/screenshots/kb_fanatics_homepage.png)
+
+![KB Fanatics cart](./assets/screenshots/kb_fanatics_cart.png)
+
+![KB Fanatics checkout](./assets/screenshots/kb_fanatics_checkout.png)
+
+## Technologies Used
+
+- React 18
+- Apollo Client
+- GraphQL
+- MongoDB Atlas & Compass
+- Mongoose
+- ExpressJS
+- NodeJS
+
+- Apollo Server
+
+## Node Packages Used
+
+- apollo/client ^3.7.17
+- fortawesome/fontawesome-pro ^6.4.2
+- reduxjs/toolkit ^1.9.5
+- stripe/react-stripe-js ^2.1.2
+- stripe/stripe-js ^2.0.0
+- graphql ^16.7.1
+- prop-types ^15.8.1
+- react ^18.2.0
+- react-dom ^18.2.0
+- react-hook-form ^7.45.4
+- react-icons ^4.10.1
+- react-redux ^8.1.2
+- react-router-dom ^6.14.2
+- react-scripts 5.0.1
+- react-spinners ^0.13.8
+- stripe ^12.18.0
+- apollo-server-express ^3.12.0
+- dotenv ^16.3.1
+- express ^4.18.2
+- mongoose ^7.4.3
+- aws-sdk ^2.1430.0
+- jsonwebtoken ^9.0.1
+- nodemailer ^6.9.4
+- uuidv4 ^6.2.13
+- eslint ^8.42.0
+- prettier ^2.8.8
+- bcrypt ^5.1.0
+- nodemon ^2.0.22
+- concurrently ^8.2.0
+
+## Contributors
+
+[Matthew Millard](https://github.com/matthew-millard)
+
+[Christopher Rodrigues](https://github.com/rethissunstar)
+
+[Marco Saverino](https://github.com/MarcoSaverino)
+
+[Bruno Rosarini](https://github.com/RdySetShine)
+
+[Valence Bememie](https://github.com/MVROZAY)
+
+## Contribution
+
+You're welcome to contribute to this project in several ways: you can help identify and resolve bugs or suggest new features, review and suggest modifications to the code, or enhance the project's documentation. All of these contributions can be made through submitting pull requests.
+
+## License
+
+MIT License A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+## Questions
+
+If you have any questions related to this project, please don't hesitate to [email me]rethissunstar@gmail.com).
+
+If you would like to check out my other projects on Github: [Christopher Rodrigues](https://github.com/rethissunstar).
+
